@@ -1,0 +1,26 @@
+.headerContainer {
+  width: 80vw;
+  height: 10vh;
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.btnsBox {
+  width: 22%;
+  display: flex;
+  margin-left: 7%;
+  justify-content: space-between;
+}
+.headerBtns {
+  border: 1px solid rgb(48, 48, 255);
+  width: 100px;
+  height: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.headerBtns:hover {
+  background-color: rgb(37, 37, 255);
+  color: #fff;
+}

@@ -1,0 +1,11 @@
+.sidebarContainer {
+  display: flex;
+  width: 20vw;
+  /* height: 90vh; */
+  border-left: 1px solid black;
+  justify-content: center;
+  align-items: center;
+}
+.instruction{
+  width: 90%;
+}

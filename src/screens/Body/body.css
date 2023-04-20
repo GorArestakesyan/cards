@@ -1,0 +1,44 @@
+.bodyContainer {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  overflow-y: auto;
+}
+.eachNumBox {
+  display: flex;
+  width: 400px;
+  height: 200px;
+  margin: 20px;
+  background-color: white;
+  border: 1px solid black;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.allNums {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.closeBtn {
+  align-self: flex-end;
+  margin: 25px;
+  left: 10px;
+  top: -15px;
+  cursor: pointer;
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.eachNumText {
+  font-size: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.closeBtn:hover{
+  color: red;
+}
